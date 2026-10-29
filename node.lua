@@ -5,6 +5,17 @@ gl.setup(NATIVE_WIDTH, NATIVE_HEIGHT)
 local fond = resource.load_image{file = "Cadran-01.png", mipmap = true}
 local lune = resource.load_image{file = "lune.png", mipmap = true}
 
+-- Recharge une image remplacee dans le paquet, sans redemarrer l'ecran
+node.event("content_update", function(nom)
+  if nom == "Cadran-01.png" then
+    fond:dispose()
+    fond = resource.load_image{file = nom, mipmap = true}
+  elseif nom == "lune.png" then
+    lune:dispose()
+    lune = resource.load_image{file = nom, mipmap = true}
+  end
+end)
+
 local tex_blanc = resource.create_colored_texture(1, 1, 1, 1)
 
 local NOIR = {0.09, 0.08, 0.07}
