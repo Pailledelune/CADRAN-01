@@ -1,0 +1,10 @@
+{
+  "name": "Cadran 01",
+  "author": "gaetanchristophe-commits",
+  "desc": "Cadran crème à trois compteurs : jours, quantième et phase de lune, sur fond noir",
+  "platforms": ["pi/epoch-1", "pi/epoch-2"],
+  "offline": {
+    "support": "yes",
+    "info": "Fonctionne sans Internet ; l'heure vient de l'appareil"
+  }
+}

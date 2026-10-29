@@ -1,0 +1,47 @@
+{
+  "name": "Cadran 01",
+  "options": [
+    {
+      "title": "Aiguilles",
+      "type": "section"
+    },
+    {
+      "title": "Afficher la trotteuse (aiguille des secondes)",
+      "name": "trotteuse",
+      "type": "boolean",
+      "default": true
+    },
+    {
+      "title": "Mouvement de la trotteuse",
+      "name": "mouvement",
+      "type": "select",
+      "options": [
+        ["balayage", "Balayage fluide (8 pas par seconde, comme un mouvement mécanique)"],
+        ["saut", "Saut chaque seconde (comme un mouvement à quartz)"]
+      ],
+      "default": "balayage"
+    },
+    {
+      "title": "Textes du cadran",
+      "type": "section"
+    },
+    {
+      "title": "Marque sous le 12",
+      "name": "marque",
+      "type": "string",
+      "default": "GAËTAN CHRISTOPHE"
+    },
+    {
+      "title": "Nom dans le compteur de lune",
+      "name": "nom_lune",
+      "type": "string",
+      "default": "Maëlle"
+    },
+    {
+      "title": "Mention sous le nom",
+      "name": "texte_lune",
+      "type": "string",
+      "default": "cadran lune"
+    }
+  ]
+}

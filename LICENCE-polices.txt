@@ -1,0 +1,8 @@
+Les polices sans.ttf, sans-gras.ttf et serif-italique.ttf sont les polices
+DejaVu Sans, DejaVu Sans Bold et DejaVu Serif Bold Italic.
+
+Fonts are (c) Bitstream (see below). DejaVu changes are in public domain.
+Bitstream Vera Fonts Copyright (c) 2003 by Bitstream, Inc. All Rights Reserved.
+Bitstream Vera is a trademark of Bitstream, Inc.
+
+Licence complète : https://dejavu-fonts.github.io/License.html
