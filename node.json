@@ -20,28 +20,6 @@
         ["saut", "Saut chaque seconde (comme un mouvement à quartz)"]
       ],
       "default": "balayage"
-    },
-    {
-      "title": "Textes du cadran",
-      "type": "section"
-    },
-    {
-      "title": "Marque sous le 12",
-      "name": "marque",
-      "type": "string",
-      "default": "GAËTAN CHRISTOPHE"
-    },
-    {
-      "title": "Nom dans le compteur de lune",
-      "name": "nom_lune",
-      "type": "string",
-      "default": "Maëlle"
-    },
-    {
-      "title": "Mention sous le nom",
-      "name": "texte_lune",
-      "type": "string",
-      "default": "cadran lune"
     }
   ]
 }
